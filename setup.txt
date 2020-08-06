@@ -1,0 +1,11 @@
+Download PHP folder from official website, php.net
+Unzip PHP folder in C:/ with folder name PHP
+Add path in Environment Variables settings as C:/PHP
+
+Open Command Prompt
+Check path is valid -> path
+Verify PHP is installed by checking its version -> php -v
+
+Create folder in desired location (e.g. C:/Users/Name/Desktop)
+Change directory in Command Prompt into above location
+Set up server on Command Prompt -> php -S localhost:4000
