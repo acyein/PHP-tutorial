@@ -28,7 +28,7 @@
                 if($rating == "G" || $rating == "PG" || $rating == "PG-13" || $rating == "R" || $rating == "NR"){
                     $this->rating = $rating;
                 } else {
-                    $this->rating = "Invalid rating";
+                    $this->rating = "NR";
                 }
             }
         }
